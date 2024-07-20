@@ -1,0 +1,73 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 24px;
+}
+
+.label-email,
+.label-message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* padding: 10px; */
+}
+
+.email {
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.email:hover,
+.message:hover {
+  border-color: #000000;
+}
+
+.message {
+  width: 360px;
+  height: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  resize: none;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #4e75ff;
+  margin-top: 8px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.submit-button:hover {
+  background-color: #6c8cff;
+}

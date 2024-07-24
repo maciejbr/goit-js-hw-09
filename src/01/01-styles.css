@@ -11,3 +11,6 @@ img {
   width: 320px;
   height: 200px;
 }
+.img:hover {
+  transform: scale(1.044);
+}
